@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E34242"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/top1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Negroni"
+            android:textSize="65dp"
+            android:textColor="@android:color/black"
+            android:gravity="center" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="210dp"
+                android:layout_height="260dp"
+                android:layout_marginLeft="10dp"
+                android:layout_gravity="center"
+                android:src="@drawable/negroni" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <EditText
+                    android:id="@+id/list1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="20dp"
+                    android:textSize="22dp"
+                    android:text=" Ingredients:" />
+                <EditText
+                    android:id="@+id/negroni1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="6dp"
+                    android:textSize="18dp"
+                    android:text=" 1 oz Gin"/>
+                <EditText
+                    android:id="@+id/negroni2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="6dp"
+                    android:textSize="18dp"
+                    android:text=" 1 oz Campari"/>
+                <EditText
+                    android:id="@+id/negroni3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="6dp"
+                    android:textSize="18dp"
+                    android:text=" 1 oz Sweet Vermouth"/>
+                <EditText
+                    android:id="@+id/negroni4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="6dp"
+                    android:textSize="18dp"
+                    android:text=" Orange Peel"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/negroni_recipe"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Recipe"
+                android:textSize="45dp"
+                android:layout_marginBottom="7dp"
+                android:textColor="@android:color/black"
+                android:gravity="center" />
+            <ImageView
+                android:layout_width="430dp"
+                android:layout_height="160dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="5dp"
+                android:src="@drawable/negroni_recipe" />
+            <TextView
+                android:id="@+id/results_negroni"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yield: 1 Drink, Prep Time: 3 Minutes"
+                android:textSize="24dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@android:color/black"
+                android:gravity="center" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

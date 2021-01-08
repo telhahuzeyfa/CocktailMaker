@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F3B4"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/name9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="English Garden Cocktail"
+            android:textSize="55dp"
+            android:textColor="@android:color/black"
+            android:gravity="center" />
+        <TextView
+            android:id="@+id/spacing7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="15dp"
+            android:textColor="@android:color/white"
+            android:gravity="center" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="210dp"
+                android:layout_height="250dp"
+                android:layout_marginLeft="10dp"
+                android:layout_gravity="center"
+                android:src="@drawable/gin1" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <EditText
+                    android:id="@+id/ingredients11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="6dp"
+                    android:textSize="22dp"
+                    android:text=" Ingredients:" />
+                <EditText
+                    android:id="@+id/gin1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="6dp"
+                    android:textSize="18dp"
+                    android:text=" 1.6 oz Gin"/>
+                <EditText
+                    android:id="@+id/apple1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="6dp"
+                    android:textSize="18dp"
+                    android:text=" 2.5 oz Apple Juice"/>
+                <EditText
+                    android:id="@+id/lime6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="6dp"
+                    android:textSize="18dp"
+                    android:text=" 1/5 tbsp Lime Juice"/>
+                <EditText
+                    android:id="@+id/cucumber"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="6dp"
+                    android:textSize="18dp"
+                    android:text=" Cucumber Ribbons"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/spacing8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="11dp"
+                android:gravity="center" />
+            <TextView
+                android:id="@+id/recipe9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Recipe"
+                android:textSize="50dp"
+                android:textColor="@android:color/black"
+                android:gravity="center" />
+            <ImageView
+                android:layout_width="410dp"
+                android:layout_height="185dp"
+                android:layout_gravity="center"
+                android:src="@drawable/gin1_recipe" />
+            <TextView
+                android:id="@+id/results9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yield: 1 Drink, Prep Time: 6 Minutes"
+                android:textSize="24dp"
+                android:textColor="@android:color/black"
+                android:gravity="center" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

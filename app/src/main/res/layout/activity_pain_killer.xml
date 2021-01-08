@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CA9205"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/name3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Painkiller"
+            android:textSize="85dp"
+            android:textColor="@android:color/black"
+            android:gravity="center" />
+        <TextView
+            android:id="@+id/space5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="25dp"
+            android:textColor="@android:color/white"
+            android:gravity="center" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="220dp"
+                android:layout_height="250dp"
+                android:layout_marginLeft="10dp"
+                android:layout_gravity="center"
+                android:src="@drawable/painkiller" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <EditText
+                    android:id="@+id/ingredients5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="6dp"
+                    android:textSize="20dp"
+                    android:text=" Ingredients:" />
+                <EditText
+                    android:id="@+id/rum2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="6dp"
+                    android:textSize="17dp"
+                    android:text=" 1.5 oz Rum"/>
+                <EditText
+                    android:id="@+id/coconut1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="6dp"
+                    android:textSize="17dp"
+                    android:text=" 1.5 oz Cream of Coconut"/>
+                <EditText
+                    android:id="@+id/oj3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="6dp"
+                    android:textSize="17dp"
+                    android:text=" 1.5 oz Orange Juice"/>
+                <EditText
+                    android:id="@+id/pineapple1"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="6dp"
+                    android:textSize="17dp"
+                    android:text=" 3 oz Pineapple Juice"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/space6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="25dp"
+                android:textColor="@android:color/white"
+                android:gravity="center" />
+            <TextView
+                android:id="@+id/recipe3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Recipe"
+                android:textSize="50dp"
+                android:textColor="@android:color/black"
+                android:gravity="center" />
+            <ImageView
+                android:layout_width="410dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:src="@drawable/painkiller_recipe" />
+            <TextView
+                android:id="@+id/results3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yield: 1 Drink, Prep Time: 3 Minutes"
+                android:textSize="25dp"
+                android:textColor="@android:color/black"
+                android:gravity="center" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
+

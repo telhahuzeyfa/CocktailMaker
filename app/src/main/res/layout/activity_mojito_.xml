@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E2F787"
+    tools:context=".Mojito_Activity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/name5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Classic Mojito"
+            android:textSize="65dp"
+            android:textColor="@android:color/black"
+            android:gravity="center" />
+        <TextView
+            android:id="@+id/space9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="15dp"
+            android:textColor="@android:color/white"
+            android:gravity="center" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="220dp"
+                android:layout_height="275dp"
+                android:layout_marginLeft="10dp"
+                android:layout_gravity="center"
+                android:src="@drawable/mojito" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <EditText
+                    android:id="@+id/ingredients7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="6dp"
+                    android:textSize="22dp"
+                    android:text=" Ingredients:" />
+                <EditText
+                    android:id="@+id/rum3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="6dp"
+                    android:textSize="18dp"
+                    android:text=" 2 oz White Rum"/>
+                <EditText
+                    android:id="@+id/club2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="6dp"
+                    android:textSize="18dp"
+                    android:text=" 1.5 oz Club Soda"/>
+                <EditText
+                    android:id="@+id/lime4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="6dp"
+                    android:textSize="18dp"
+                    android:text=" 1 oz Lime Juice"/>
+                <EditText
+                    android:id="@+id/syrup1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="6dp"
+                    android:textSize="18dp"
+                    android:text=" 1 oz Simple Syrup"/>
+                <EditText
+                    android:id="@+id/mint1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="6dp"
+                    android:textSize="18dp"
+                    android:text=" 3 Mint Sprigs"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/space10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="15dp"
+                android:textColor="@android:color/white"
+                android:gravity="center" />
+            <TextView
+                android:id="@+id/recipe5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Recipe"
+                android:textSize="50dp"
+                android:textColor="@android:color/black"
+                android:gravity="center" />
+            <ImageView
+                android:layout_width="410dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:src="@drawable/mojitorecipe" />
+            <TextView
+                android:id="@+id/results5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yield: 1 Drink, Prep Time: 6 Minutes"
+                android:textSize="25dp"
+                android:textColor="@android:color/black"
+                android:gravity="center" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
+

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF7A56"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/top8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cosmo"
+            android:textSize="75dp"
+            android:textColor="@android:color/black"
+            android:gravity="center" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="190dp"
+                android:layout_height="330dp"
+                android:layout_marginLeft="10dp"
+                android:layout_gravity="center"
+                android:src="@drawable/cosmo" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <EditText
+                    android:id="@+id/list8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="20dp"
+                    android:textSize="23dp"
+                    android:text=" Ingredients:" />
+                <EditText
+                    android:id="@+id/cosmo1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="6dp"
+                    android:textSize="19dp"
+                    android:text=" 5.5 oz Citrus Vodka"/>
+                <EditText
+                    android:id="@+id/cosmo2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="6dp"
+                    android:textSize="19dp"
+                    android:text=" 1 oz Cointreau"/>
+                <EditText
+                    android:id="@+id/cosmo3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="6dp"
+                    android:textSize="19dp"
+                    android:text=" 1/2 oz Lime Juice"/>
+                <EditText
+                    android:id="@+id/cosmo4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="6dp"
+                    android:textSize="19dp"
+                    android:text=" 1 dash Cranberry Juice"/>
+                <EditText
+                    android:id="@+id/cosmo5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="6dp"
+                    android:textSize="19dp"
+                    android:text=" Lime Wedge"/>
+
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/cosmo_recipe"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="3dp"
+                android:text="Recipe"
+                android:textSize="45dp"
+                android:textColor="@android:color/black"
+                android:gravity="center" />
+            <ImageView
+                android:layout_width="430dp"
+                android:layout_height="173dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/cosmo_recipe" />
+            <TextView
+                android:id="@+id/results_cosmo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yield: 1 Drink, Prep Time: 5 Minutes"
+                android:textSize="24dp"
+                android:layout_marginTop="12dp"
+                android:textColor="@android:color/black"
+                android:gravity="center" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

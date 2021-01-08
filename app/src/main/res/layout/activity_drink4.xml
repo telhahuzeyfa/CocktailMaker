@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F7FDC0"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/top4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Margarita"
+            android:textSize="69dp"
+            android:textColor="@android:color/black"
+            android:gravity="center" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="190dp"
+                android:layout_height="300dp"
+                android:layout_marginLeft="10dp"
+                android:layout_gravity="center"
+                android:src="@drawable/margarita" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <EditText
+                    android:id="@+id/list4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="20dp"
+                    android:textSize="23dp"
+                    android:text=" Ingredients:" />
+                <EditText
+                    android:id="@+id/margarita1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="6dp"
+                    android:textSize="19dp"
+                    android:text=" 2 oz Tequila"/>
+                <EditText
+                    android:id="@+id/margarita2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="6dp"
+                    android:textSize="19dp"
+                    android:text=" 1/2 oz Orange Tequila"/>
+                <EditText
+                    android:id="@+id/margarita3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="6dp"
+                    android:textSize="19dp"
+                    android:text=" 1 oz Lime Juice"/>
+                <EditText
+                    android:id="@+id/margarita4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="6dp"
+                    android:textSize="19dp"
+                    android:text=" 1/2 oz Agave Syrup"/>
+                <EditText
+                    android:id="@+id/margarita5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="6dp"
+                    android:textSize="19dp"
+                    android:text=" 1 Lime Wheel"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/margarita_recipe"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="11dp"
+                android:layout_marginBottom="7dp"
+                android:text="Recipe"
+                android:textSize="45dp"
+                android:textColor="@android:color/black"
+                android:gravity="center" />
+            <ImageView
+                android:layout_width="430dp"
+                android:layout_height="160dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/margarita_recipe" />
+            <TextView
+                android:id="@+id/results_margarita"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yield: 1 Drink, Prep Time: 10 Minutes"
+                android:textSize="24dp"
+                android:layout_marginTop="11dp"
+                android:textColor="@android:color/black"
+                android:gravity="center" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

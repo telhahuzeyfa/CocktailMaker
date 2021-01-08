@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C23D00"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/top3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Manhattan"
+            android:textSize="68dp"
+            android:textColor="@android:color/black"
+            android:gravity="center" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="190dp"
+                android:layout_height="370dp"
+                android:layout_marginLeft="10dp"
+                android:layout_gravity="center"
+                android:src="@drawable/manhattan" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <EditText
+                    android:id="@+id/list3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="20dp"
+                    android:textSize="23dp"
+                    android:text=" Ingredients:" />
+                <EditText
+                    android:id="@+id/manhattan1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="6dp"
+                    android:textSize="19dp"
+                    android:text=" 2 oz Bourbon"/>
+                <EditText
+                    android:id="@+id/manhattan2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="6dp"
+                    android:textSize="19dp"
+                    android:text=" 1 oz Sweet Vermouth"/>
+                <EditText
+                    android:id="@+id/manhattan3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="6dp"
+                    android:textSize="19dp"
+                    android:text=" 2 dashes Angostura Bitters"/>
+                <EditText
+                    android:id="@+id/manhattan4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="6dp"
+                    android:textSize="19dp"
+                    android:text=" 1 dash Orange Bitters"/>
+                <EditText
+                    android:id="@+id/manhattan5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="6dp"
+                    android:textSize="19dp"
+                    android:text=" 2 dashes Angostura Bitters"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/manhattan_recipe"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Recipe"
+                android:textSize="45dp"
+                android:layout_marginBottom="5dp"
+                android:textColor="@android:color/black"
+                android:gravity="center" />
+            <ImageView
+                android:layout_width="430dp"
+                android:layout_height="160dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="6dp"
+                android:src="@drawable/manhattan_recipe" />
+            <TextView
+                android:id="@+id/results_manhattan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yield: 1 Drink, Prep Time: 5 Minutes"
+                android:textSize="24dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@android:color/black"
+                android:gravity="center" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

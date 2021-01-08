@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="#F9F2A2"
+tools:context=".MainActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/top5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Daiquiri"
+        android:textSize="73dp"
+        android:textColor="@android:color/black"
+        android:gravity="center" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="190dp"
+            android:layout_height="310dp"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center"
+            android:src="@drawable/daiquiri" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <EditText
+                android:id="@+id/list5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="6dp"
+                android:layout_marginTop="20dp"
+                android:textSize="26dp"
+                android:text=" Ingredients:" />
+            <EditText
+                android:id="@+id/daiquiri1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="6dp"
+                android:textSize="21dp"
+                android:text=" 2 oz Light Rum"/>
+            <EditText
+                android:id="@+id/daiquiri2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="6dp"
+                android:textSize="21dp"
+                android:text=" 3/4 oz sugar syrup"/>
+            <EditText
+                android:id="@+id/daiquiri3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="6dp"
+                android:textSize="21dp"
+                android:text=" 1 oz Lime Juice"/>
+            <EditText
+                android:id="@+id/daiquiri4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="6dp"
+                android:textSize="21dp"
+                android:text=" Lime Twist or Wheel"/>
+
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/daiquiri_recipe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Recipe"
+            android:textSize="45dp"
+            android:textColor="@android:color/black"
+            android:gravity="center" />
+        <ImageView
+            android:layout_width="430dp"
+            android:layout_height="160dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="9dp"
+            android:src="@drawable/daiquiri_recipe" />
+        <TextView
+            android:id="@+id/results_daiquiri"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Yield: 1 Drink, Prep Time: 3 Minutes"
+            android:textSize="24dp"
+            android:layout_marginTop="13dp"
+            android:textColor="@android:color/black"
+            android:gravity="center" />
+    </LinearLayout>
+</LinearLayout>
+</ScrollView>

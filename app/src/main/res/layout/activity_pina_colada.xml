@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF6AD"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/name6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Piña Colada"
+            android:textSize="75dp"
+            android:textColor="@android:color/black"
+            android:gravity="center" />
+        <TextView
+            android:id="@+id/spacing1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="15dp"
+            android:textColor="@android:color/white"
+            android:gravity="center" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="210dp"
+                android:layout_height="275dp"
+                android:layout_marginLeft="10dp"
+                android:layout_gravity="center"
+                android:src="@drawable/pina_colada" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <EditText
+                    android:id="@+id/ingredients8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="6dp"
+                    android:textSize="22dp"
+                    android:text=" Ingredients:" />
+                <EditText
+                    android:id="@+id/rum4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="6dp"
+                    android:textSize="18dp"
+                    android:text=" 4 oz White Rum"/>
+                <EditText
+                    android:id="@+id/pineapple2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="6dp"
+                    android:textSize="18dp"
+                    android:text=" 4 oz Pineapple Juice"/>
+                <EditText
+                    android:id="@+id/coconut2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="6dp"
+                    android:textSize="18dp"
+                    android:text=" 4 oz Cream of Coconut"/>
+                <EditText
+                    android:id="@+id/lime5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="6dp"
+                    android:textSize="18dp"
+                    android:text=" 1/2 oz Lime Juice (optional)"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/spacing2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="15dp"
+                android:gravity="center" />
+            <TextView
+                android:id="@+id/recipe6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Recipe"
+                android:textSize="50dp"
+                android:textColor="@android:color/black"
+                android:gravity="center" />
+            <ImageView
+                android:layout_width="410dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:src="@drawable/pina_recipe" />
+            <TextView
+                android:id="@+id/results6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yield: 2 Drink, Prep Time: 10 Minutes"
+                android:textSize="24dp"
+                android:textColor="@android:color/black"
+                android:gravity="center" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
+

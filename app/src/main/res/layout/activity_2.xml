@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/palm"
+    tools:context=".Activity_2">
+
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Search Ingredients"
+            android:textSize="40dp"
+            android:textColor="#D89797"
+            android:gravity="center" />
+        <TextView
+            android:id="@+id/blank"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text=""
+            android:textSize="40dp"
+            android:textColor="#8E1111"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+            <CheckBox
+                android:id="@+id/checkbox_OJ"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Orange Juice"
+                android:textColor="@color/white"
+                android:textSize="18dp"
+                android:onClick="onCheckboxClicked" />
+            <CheckBox
+                android:id="@+id/checkbox_lemons"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lemons"
+                android:textColor="@color/white"
+                android:textSize="18dp"
+                android:onClick="onCheckboxClicked"
+                android:layout_marginLeft="15dp"/>
+            <CheckBox
+                android:id="@+id/checkbox_GingerBeer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ginger Beer"
+                android:textColor="@color/white"
+                android:textSize="18dp"
+                android:onClick="onCheckboxClicked"
+                android:layout_marginLeft="20dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+            <CheckBox
+                android:id="@+id/checkbox_honey"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Honey"
+                android:textColor="@color/white"
+                android:textSize="18dp"
+                android:onClick="onCheckboxClicked"/>
+            <CheckBox
+                android:id="@+id/checkbox_sugar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sugar"
+                android:textColor="@color/white"
+                android:textSize="18dp"
+                android:onClick="onCheckboxClicked"
+                android:layout_marginLeft="8dp" />
+            <CheckBox
+                android:id="@+id/checkbox_Grenadine"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Grenadine"
+                android:textColor="@color/white"
+                android:textSize="18dp"
+                android:onClick="onCheckboxClicked"
+                android:layout_marginLeft="5dp"/>
+            <CheckBox
+                android:id="@+id/checkbox_soda"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Club Soda"
+                android:textColor="@color/white"
+                android:textSize="18dp"
+                android:onClick="onCheckboxClicked"
+                android:layout_marginLeft="7dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+            <CheckBox
+                android:id="@+id/checkbox_lime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lime"
+                android:textColor="@color/white"
+                android:textSize="18dp"
+                android:onClick="onCheckboxClicked" />
+            <CheckBox
+                android:id="@+id/checkbox_Syrup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Syrup"
+                android:textColor="@color/submitcolor"
+                android:textSize="18dp"
+                android:onClick="onCheckboxClicked"
+                android:layout_marginLeft="10dp"/>
+            <CheckBox
+                android:id="@+id/checkbox_Pineapple"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pineapple Juice"
+                android:textColor="@color/white"
+                android:textSize="18dp"
+                android:onClick="onCheckboxClicked"
+                android:layout_marginLeft="10dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+            <CheckBox
+                android:id="@+id/checkbox_Coconut"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cream of Coconut"
+                android:textColor="@color/white"
+                android:textSize="18dp"
+                android:onClick="onCheckboxClicked"/>
+            <CheckBox
+                android:id="@+id/checkbox_Apple"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Apple Juice"
+                android:textColor="@color/submitcolor"
+                android:textSize="18dp"
+                android:onClick="onCheckboxClicked"
+                android:layout_marginLeft="10dp"/>
+            <CheckBox
+                android:id="@+id/checkbox_Mint"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mint"
+                android:textColor="@color/submitcolor"
+                android:textSize="18dp"
+                android:onClick="onCheckboxClicked"
+                android:layout_marginLeft="10dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+            <CheckBox
+                android:id="@+id/checkbox_Creme"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Creme"
+                android:textColor="@color/submitcolor"
+                android:textSize="18dp"
+                android:onClick="onCheckboxClicked"/>
+            <CheckBox
+                android:id="@+id/checkbox_Blackberries"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Blackberries"
+                android:textColor="@color/submitcolor"
+                android:textSize="18dp"
+                android:onClick="onCheckboxClicked"
+                android:layout_marginLeft="10dp"/>
+            <CheckBox
+                android:id="@+id/checkbox_Cucumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cucumber"
+                android:textColor="@color/submitcolor"
+                android:textSize="18dp"
+                android:onClick="onCheckboxClicked"
+                android:layout_marginLeft="10dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/text_view2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="35dp"
+                android:gravity="center" />
+
+            <TextView
+                android:id="@+id/final_result"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Added List: "
+                android:textColor="#000000"
+                android:textSize="18dp"/>
+
+            <Button
+                android:id="@+id/addButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="finalSelection"
+                android:text="add +" />
+
+            <Button
+                android:id="@+id/SearchButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Search"
+                />
+        </LinearLayout>
+
+</LinearLayout>
+</ScrollView>
+
+
