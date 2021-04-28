@@ -4,7 +4,7 @@
 <blockquote>
 By using the My Cocktail Assistant app, users will be able to learn recipes, make cocktails, and enjoy these drinks from the comfort of their own home! The objective of this application is to teach legal adults of all ages how to make new cocktail recipes that they’d want to try out by using their leftover ingredients.
 </blockquote>
-### App Walk-though <br>
+### App Walk-through <br>
 
 <img src="https://recordit.co/wQRP94NTcE.gif" width=200><br> 
 
